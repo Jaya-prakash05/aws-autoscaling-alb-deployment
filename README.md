@@ -18,7 +18,7 @@ This project demonstrates the implementation of a fault-tolerant, highly availab
 
 ### 1. Custom VPC & Subnet Topology
 - **VPC:** `vpc-1` spanning `ap-south-1a` (`sub-1`) and `ap-south-1b` (`sub-2`) with structured route tables.
-  *(See `screenshots/vpc.png`)*
+  (screenshots/vpc.png)
 
 ### 2. Application Load Balancer (ALB) & Healthy Targets
 - **ALB Name:** `alb-1`
