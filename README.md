@@ -24,7 +24,7 @@ This project demonstrates the implementation of a fault-tolerant, highly availab
 - **ALB Name:** `alb-1`
 - **DNS Name:** `alb-1-2106726068.ap-south-1.elb.amazonaws.com`
 - **Targets:** Actively balancing traffic across healthy EC2 instances with passing HTTP health checks.
-  ![ALB Setup Screenshot](load_balancer.png)
+  ![ALB Setup Screenshot](screenshots/load_balancer.png)
 
 ### 3. Auto Scaling Group (ASG) Management
 - **ASG Name:** `asg-1`
