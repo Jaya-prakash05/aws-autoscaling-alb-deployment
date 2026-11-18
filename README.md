@@ -18,19 +18,19 @@ This project demonstrates the implementation of a fault-tolerant, highly availab
 
 ### 1. Custom VPC & Subnet Topology
 - **VPC:** `vpc-1` spanning `ap-south-1a` (`sub-1`) and `ap-south-1b` (`sub-2`) with structured route tables.
-  *(See `screenshots/vpc-setup.png`)*
+  *(See `screenshots/vpc.png`)*
 
 ### 2. Application Load Balancer (ALB) & Healthy Targets
 - **ALB Name:** `alb-1`
 - **DNS Name:** `alb-1-2106726068.ap-south-1.elb.amazonaws.com`
 - **Targets:** Actively balancing traffic across healthy EC2 instances with passing HTTP health checks.
-  *(See `screenshots/alb-healthy-targets.png`)*
+  *(See `load_balancer.png`)*
 
 ### 3. Auto Scaling Group (ASG) Management
 - **ASG Name:** `asg-1`
 - **Capacity:** Desired: 2 | Min: 1 | Max: 3
 - **Status:** At desired capacity (`2/2 Healthy`).
-  *(See `screenshots/asg-overview.png`)*
+  *(See `asg.png`)*
 
 ---
 
@@ -55,5 +55,5 @@ This project demonstrates the implementation of a fault-tolerant, highly availab
 * **Key Metrics Monitored:** High-throughput request handling, edge latency, and system availability.
 
 ### Application Preview
-![Neon-Carbon Dashboard UI](screenshots/neon-carbon-dashboard.png)
+![Neon-Carbon Dashboard UI](neaon.png)
 *(Saved in your repository under `screenshots/` as `neon-carbon-dashboard.png`)*
